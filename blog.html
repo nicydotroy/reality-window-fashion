@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Read the Reality Window Fashion blog for expert tips on blinds, mosquito nets, invisible grills, and window treatment ideas for Mumbai homes and offices." />
+  <title>Blog | Blinds, Nets & Window Treatment Tips | Reality Window Fashion</title>
+  <link rel="canonical" href="https://realitywindowfashion.com/blog.html" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://realitywindowfashion.com/blog.html" />
+  <meta property="og:title" content="Blog | Blinds, Nets & Window Treatment Tips | Reality Window Fashion" />
+  <meta property="og:description" content="Expert tips on blinds, mosquito nets, invisible grills, and window treatment ideas for Mumbai homes and offices." />
+  <meta property="og:image" content="https://realitywindowfashion.com/public/photos/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Blog | Blinds, Nets & Window Treatment Tips | Reality Window Fashion" />
+  <meta name="twitter:description" content="Expert tips on blinds, mosquito nets, invisible grills, and window treatment ideas for Mumbai homes and offices." />
+  <meta name="twitter:image" content="https://realitywindowfashion.com/public/photos/og-image.jpg" />
+  <meta name="keywords" content="blinds tips Mumbai, mosquito net guide, invisible grill installation guide, roller blinds vs zebra blinds, window treatment ideas, home interior tips Mumbai" />
+  <link rel="icon" href="public/photos/favicon.ico" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Reality Window Fashion Blog",
+    "url": "https://realitywindowfashion.com/blog.html",
+    "description": "Expert tips and guides on blinds, mosquito nets, invisible grills, and window treatments for Mumbai homes.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Reality Window Fashion",
+      "url": "https://realitywindowfashion.com"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="shared.css" />
+
+  <style>
+    :root {
+      --bg: #f5f5f3;
+      --panel: #ffffff;
+    }
+
+    body {
+      background: var(--bg);
+      color: #111;
+    }
+
+    .page-body {
+      padding-top: calc(var(--nav-h) + 48px);
+      padding-bottom: 80px;
+    }
+
+    .wrap {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ── Hero ── */
+    .blog-hero {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+    .blog-hero h1 {
+      font-family: var(--serif);
+      font-size: clamp(32px, 5vw, 56px);
+      font-weight: 700;
+      line-height: 1.15;
+      margin: 0 0 14px;
+      color: #111;
+    }
+    .blog-hero p {
+      font-size: 17px;
+      color: #595959;
+      max-width: 560px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    /* ── Category filters ── */
+    .filters {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 48px;
+    }
+    .filter-btn {
+      padding: 8px 20px;
+      border: 1.5px solid #ccc;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      color: #444;
+      background: #fff;
+      cursor: pointer;
+      transition: background 0.2s, border-color 0.2s, color 0.2s;
+      font-family: var(--sans);
+    }
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: #111;
+      border-color: #111;
+      color: #fff;
+    }
+
+    /* ── Grid ── */
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 32px;
+      margin-bottom: 64px;
+    }
+
+    /* ── Card ── */
+    .blog-card {
+      background: var(--panel);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(0,0,0,0.07);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.25s, box-shadow 0.25s;
+    }
+    .blog-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 28px rgba(0,0,0,0.10);
+    }
+
+    .card-thumb {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #e8e8e4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .card-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .card-thumb-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #e0dfd9, #cac9c3);
+    }
+    .card-thumb-placeholder svg {
+      width: 48px;
+      height: 48px;
+      opacity: 0.35;
+      color: #555;
+    }
+
+    .card-body {
+      padding: 24px 24px 28px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .card-category {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #888;
+    }
+    .card-dot {
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      background: #bbb;
+      flex-shrink: 0;
+    }
+    .card-date {
+      font-size: 12px;
+      color: #aaa;
+    }
+
+    .card-title {
+      font-family: var(--serif);
+      font-size: 19px;
+      font-weight: 600;
+      line-height: 1.35;
+      color: #111;
+      margin: 0 0 10px;
+    }
+
+    .card-excerpt {
+      font-size: 14px;
+      color: #595959;
+      line-height: 1.7;
+      margin: 0 0 20px;
+      flex: 1;
+    }
+
+    .card-read-more {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: #111;
+      border-bottom: 1.5px solid #111;
+      padding-bottom: 2px;
+      width: fit-content;
+      transition: opacity 0.2s;
+    }
+    .card-read-more:hover { opacity: 0.6; }
+    .card-read-more svg { width: 14px; height: 14px; }
+
+    /* ── Newsletter CTA ── */
+    .newsletter {
+      background: linear-gradient(135deg, #111 0%, #333 100%);
+      border-radius: 20px;
+      padding: 56px 32px;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 0;
+    }
+    .newsletter h2 {
+      font-family: var(--serif);
+      font-size: clamp(22px, 4vw, 36px);
+      font-weight: 600;
+      margin: 0 0 12px;
+    }
+    .newsletter p {
+      margin: 0 0 28px;
+      font-size: 15px;
+      color: #ccc;
+      line-height: 1.6;
+    }
+    .newsletter-form {
+      display: flex;
+      gap: 10px;
+      max-width: 440px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .newsletter-form input[type="email"] {
+      flex: 1;
+      min-width: 220px;
+      padding: 12px 18px;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-family: var(--sans);
+      outline: none;
+      color: #111;
+    }
+    .newsletter-form button {
+      padding: 12px 28px;
+      background: #fff;
+      color: #111;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      border-radius: 6px;
+      font-family: var(--sans);
+      cursor: pointer;
+      transition: opacity 0.2s;
+      border: none;
+    }
+    .newsletter-form button:hover { opacity: 0.85; }
+
+    @media (max-width: 680px) {
+      .blog-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<nav class="nav" id="nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-name">Reality Window Fashion</span>
+      <span class="nav-logo-tag">Blinds - Screens - Shutters</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li class="nav-products">
+        <button type="button" class="nav-link-btn" id="productsMenuBtn" aria-expanded="false" aria-controls="productsMenu">
+          Products
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="products-menu" id="productsMenu"></div>
+      </li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="tel:+917738517042" class="nav-call">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14z"/></svg>
+      +91 77385 17042
+    </a>
+    <button type="button" class="mob-head-products" id="mobHeadProductsBtn" aria-expanded="false" aria-controls="mobHeadProductsMenu" aria-label="Open products menu">
+      Products
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+<div class="mob-head-products-menu" id="mobHeadProductsMenu"></div>
+<div class="mob-menu" id="mobMenu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <button type="button" class="mob-products-toggle" id="mobProductsBtn" aria-expanded="false" aria-controls="mobProductsMenu">
+    Products
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+  </button>
+  <div class="mob-products" id="mobProductsMenu"></div>
+  <a href="gallery.html">Gallery</a>
+  <a href="blog.html">Blog</a>
+  <a href="contact.html">Contact</a>
+  <a href="tel:+917738517042" style="font-size:18px;font-family:var(--sans);letter-spacing:1px;margin-top:10px;">+91 77385 17042</a>
+</div>
+
+  <div class="page-body">
+    <div class="wrap">
+
+      <!-- Hero -->
+      <section class="blog-hero">
+        <h1>Window Treatment Tips &amp; Ideas</h1>
+        <p>Expert guides on blinds, mosquito nets, invisible grills, and window décor for modern Mumbai homes and offices.</p>
+      </section>
+
+      <!-- Category Filters -->
+      <div class="filters">
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">Blinds</button>
+        <button class="filter-btn">Mosquito Nets</button>
+        <button class="filter-btn">Invisible Grill</button>
+        <button class="filter-btn">Installation Tips</button>
+        <button class="filter-btn">Home Décor</button>
+      </div>
+
+      <!-- Blog Grid -->
+      <div class="blog-grid">
+
+        <!-- Featured Post - New -->
+        <article class="blog-card">
+          <div class="card-thumb">
+            <div class="card-thumb-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="card-category">Installation Guide</span>
+              <span class="card-dot"></span>
+              <span class="card-date">March 26, 2026</span>
+            </div>
+            <h2 class="card-title">Complete Blinds, Nets &amp; Invisible Grill Installation Solutions in Mumbai</h2>
+            <p class="card-excerpt">Everything you need to know about blinds installation service, mosquito net installation, and invisible grill installation in Mumbai — including pricing, types, and how to choose the right professionals for your home.</p>
+            <a href="complete-blinds-nets-invisible-grill-mumbai.html" class="card-read-more">
+              Read More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Post 1 -->
+        <article class="blog-card">
+          <div class="card-thumb">
+            <div class="card-thumb-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="card-category">Blinds</span>
+              <span class="card-dot"></span>
+              <span class="card-date">March 10, 2026</span>
+            </div>
+            <h2 class="card-title">Roller Blinds vs Zebra Blinds: Which Is Right for Your Home?</h2>
+            <p class="card-excerpt">Both roller and zebra blinds are popular choices, but which one suits Mumbai's climate and your interior style? We break down the key differences in light control, maintenance, and cost.</p>
+            <a href="contact.html" class="card-read-more">
+              Read More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Post 2 -->
+        <article class="blog-card">
+          <div class="card-thumb">
+            <div class="card-thumb-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="card-category">Mosquito Nets</span>
+              <span class="card-dot"></span>
+              <span class="card-date">March 3, 2026</span>
+            </div>
+            <h2 class="card-title">How to Choose the Best Mosquito Net for Mumbai Monsoon Season</h2>
+            <p class="card-excerpt">Monsoon brings relief from heat but also insects. Learn the difference between pleated nets, fixed-frame nets, and retractable nets — and which works best for windows and balconies in Mumbai.</p>
+            <a href="contact.html" class="card-read-more">
+              Read More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Post 3 -->
+        <article class="blog-card">
+          <div class="card-thumb">
+            <div class="card-thumb-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M3 6h18M3 12h18M3 18h18"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="card-category">Invisible Grill</span>
+              <span class="card-dot"></span>
+              <span class="card-date">February 20, 2026</span>
+            </div>
+            <h2 class="card-title">5 Reasons Why Invisible Grills Are the #1 Safety Choice for High-Rise Balconies</h2>
+            <p class="card-excerpt">Invisible grills use strong stainless-steel cables to protect children and pets without blocking your view. Here are five reasons why more Mumbai apartment owners are switching from traditional grills.</p>
+            <a href="contact.html" class="card-read-more">
+              Read More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Post 4 -->
+        <article class="blog-card">
+          <div class="card-thumb">
+            <div class="card-thumb-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 3v18M3 12h18"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="card-category">Installation Tips</span>
+              <span class="card-dot"></span>
+              <span class="card-date">February 12, 2026</span>
+            </div>
+            <h2 class="card-title">What to Expect During a Professional Blind Installation Visit</h2>
+            <p class="card-excerpt">Booking your first installation? Here's a step-by-step walkthrough — from the initial measurement visit to the final fitting — so you know exactly what to prepare and what questions to ask.</p>
+            <a href="contact.html" class="card-read-more">
+              Read More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Post 5 -->
+        <article class="blog-card">
+          <div class="card-thumb">
+            <div class="card-thumb-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="card-category">Home Décor</span>
+              <span class="card-dot"></span>
+              <span class="card-date">January 28, 2026</span>
+            </div>
+            <h2 class="card-title">Cellular vs Shangrila Blinds: The Complete Guide for Mumbai Apartments</h2>
+            <p class="card-excerpt">Cellular blinds trap air for insulation while Shangrila blinds offer soft light diffusion. Both are ideal for Mumbai's varied climate — but which fits your room better? We compare materials, maintenance, and pricing.</p>
+            <a href="contact.html" class="card-read-more">
+              Read More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Post 6 -->
+        <article class="blog-card">
+          <div class="card-thumb">
+            <div class="card-thumb-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="card-category">Home Décor</span>
+              <span class="card-dot"></span>
+              <span class="card-date">January 15, 2026</span>
+            </div>
+            <h2 class="card-title">How to Style Your Windows in 2026: Top Blind Trends for Indian Homes</h2>
+            <p class="card-excerpt">From zip-screen blinds on large glass facades to wooden venetian blinds in minimalist interiors — discover the window treatment trends that interior designers in Mumbai are recommending in 2026.</p>
+            <a href="contact.html" class="card-read-more">
+              Read More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div><!-- /blog-grid -->
+
+      <!-- Newsletter CTA -->
+      <div class="newsletter">
+        <h2>Get Window Treatment Tips in Your Inbox</h2>
+        <p>Join homeowners across Mumbai who receive our latest guides, offers, and product updates.</p>
+        <form class="newsletter-form" action="contact.html" method="get" aria-label="Newsletter signup">
+          <input type="email" placeholder="Your email address" aria-label="Email address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="foot-brand-name">Reality Window Fashion</div>
+        <div class="foot-brand-tag">Blinds - Screens - Shutters</div>
+        <p class="foot-desc">Mumbai's trusted window treatment specialists since 2009. Transforming spaces with premium blinds, screens and shutters across the city and beyond.</p>
+        <div class="foot-socials">
+          <a href="https://www.facebook.com/realitywindowfashion" target="_blank" rel="noopener" class="foot-social" aria-label="Facebook"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+          <a href="https://www.instagram.com/realitywindowfashion" target="_blank" rel="noopener" class="foot-social" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="https://wa.me/917738517042" class="foot-social" aria-label="WhatsApp"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <div class="foot-col-title">Quick Links</div>
+        <ul class="foot-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products/">Products</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="foot-col-title">Our Products</div>
+        <ul class="foot-links">
+          <li><a href="products/invisible-grill-mumbai.html">Invisible Grill</a></li>
+          <li><a href="products/pleated-mosquito-mumbai.html">Pleated Mosquito Net</a></li>
+          <li><a href="products/roller-blinds-mumbai.html">Roller Blinds</a></li>
+          <li><a href="products/wooden-venetian-blinds-mumbai.html">Wooden Venetian Blinds</a></li>
+          <li><a href="products/zebra-blinds-mumbai.html">Zebra Blinds</a></li>
+          <li><a href="products/cellular-blinds-mumbai.html">Cellular Blinds</a></li>
+          <li><a href="products/shangrila-blinds-mumbai.html">Shangrila Blinds</a></li>
+          <li><a href="products/bird-net-mumbai.html">Bird Net</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="foot-col-title">Contact Us</div>
+        <div class="foot-citem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Shop No 6, Rajaji Path, Ram Nagar,<br>Dombivli East, Thane - 421201</span></div>
+        <div class="foot-citem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14z"/></svg><span>+91 77385 17042</span></div>
+        <div class="foot-citem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>realitywindowfashion@gmail.com</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot-divider"></div>
+  <div class="container">
+    <div class="foot-bottom">
+      <span class="foot-copy">© 2026 Reality Window Fashion. All Rights Reserved.</span>
+      <span class="foot-powered">Powered by <a href="https://mydigitalcrown.in/" target="_blank" rel="noopener noreferrer">Digital Marketing Company in Mumbai</a></span>
+    </div>
+  </div>
+</footer>
+<a href="tel:+917738517042" class="call-btn" aria-label="Call us"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14z"/></svg></a>
+<a href="https://wa.me/917738517042" class="wa-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+<button class="btt" id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg></button>
+
+  <script src="shared.js"></script>
+</body>
+</html>
